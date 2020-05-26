@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valor Atual Moedas</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="content-sub">
+            <div class="logo"> $ </div>
+            <h1>Cotações de Moedas</h1>
+
+            <div class="section-btn">
+                <button onclick="obterDados('USD-BRL', 7)">Dólar</button> <!-- Passando parametro por html -->
+                <button id="d-canada">Dólar Canadá</button>
+                <button id="euro">Euro</button>
+            </div>
+            <div class="section-text">
+                <p id="resultado-data"></p>
+                <ul id="resultado"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
